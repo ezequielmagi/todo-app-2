@@ -1,7 +1,9 @@
+import Header from './components/Header'
+
 export default function TodoApp(){
   return(
-    <>
-      <h1 className="bg-red-300">TodoApp</h1>
-    </>
+    <article className="bg-gray-100 h-screen w-screen">
+      <Header />
+    </article>
   )
 }
